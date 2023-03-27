@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
-{% block content %}
-{{ page.content | safe }}
+{% block content_outer %}
 {% include "shortcodes/logo.html" %}
-{% endblock content %}
+{% endblock %}
+{% block content_inner %}
+{{ page.content | safe }}
+{% endblock %}

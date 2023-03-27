@@ -2,6 +2,7 @@
 title = "Contact Us"
 template = "generic.html"
 +++
-## Contact Us at [invalid@invalid.invalid](mailto:invalid@invalid.invalid)
+# Contact Us
+## [youngstownsolidarity@gmail.com](mailto:youngstownsolidarity@gmail.co)
 
-Lorem ipsum
+Reach out for more information about the YAC.
