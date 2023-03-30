@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block title %}{{ section.title }}{% endblock %}
+{% block header %}<h1>Youngstown Action Center</h1>{% endblock %}
+
 {% block content %}
-{{ section.content | safe }}
+<div class="placeholder-1">PLACEHOLDER</div>
+<div class="text-container">
+    {{ section.content | safe }}
+</div>
 {% endblock content %}

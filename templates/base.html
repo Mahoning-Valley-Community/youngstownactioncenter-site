@@ -4,16 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Online presence of the Youngstown Action Center">
   <link rel="stylesheet" href="/site.css">
-  <title>Youngstown Action Center</title>
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
 </head>
 
 <body>
-  {% include "include/nav.html" %}
   <section class="section">
     <div class="container">
+      {% block header %}<h1>{{ config.title }}</h1>{% endblock %}
+      {% include "include/nav.html" %}
       {% block content %}
-	  {% endblock %}
+      {% endblock %}
     </div>
   </section>
 </body>
