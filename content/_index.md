@@ -8,5 +8,7 @@ Welcome to the Youngstown Action Center, a welcoming, queer-friendly DIY communi
 
 We come together to share our passion for worker justice, environmental and climate justice, racial justice, reproductive freedom, LGBTQAI+ community support and freedom, local sustainability, and robust democratic processes.
 
-Follow us on Facebook to get invites to events and updates about what's going on with us!
-Support us through our donation portal at Open Collective, a great, super transparent online fiscal sponsor.
+Sign up [here](https://actionnetwork.org/forms/youngstown-action-center) to get our newsletter and let us know how you'd like to be part of our community.
+
+Follow us on [Facebook](https://www.facebook.com/YoungstownActionCenter) to get invites to events and updates about what's going on with us!
+Support us through our donation portal at [Open Collective](https://opencollective.com/youngstownactioncenter), a great, super transparent online fiscal sponsor.
