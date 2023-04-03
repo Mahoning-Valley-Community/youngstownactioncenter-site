@@ -63,6 +63,14 @@ ul {
     color: white;
 }
 
+img {
+    max-width: 100%;
+}
+
+p > img {
+    margin-top: 1rem;
+}
+
 .nav-divider {
     display: none;
 }
