@@ -76,11 +76,11 @@ p > img {
 }
 
 a:visited {
-    color: darkgreen;
+    color: #003c00;
 }
 
 a:link {
-    color: green;
+    color: #005b00;
 }
 
 .downstyle-anchor {
