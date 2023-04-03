@@ -5,14 +5,16 @@
 {% block content %}
 <ul>
     {% for page in paginator.pages %}
-    <div class="text-container">
-        <div class="header-group">
+    <div class="panel">
+        <div class="panel-header-group">
             <h2>
                 <a href="{{ page.path }}" class="downstyle-anchor">{{ page.title }}</a>
             </h2>
             {{ page.date }}
         </div>
+        <div class="panel-content"
         {{ page.content | safe }}
+        </div>
     </div>
     {% endfor %}
 </ul>
