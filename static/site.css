@@ -119,11 +119,6 @@ h1 {
     box-shadow: 0 7px 13px #636f5c;
 }
 
-div.panel:first-child {
-    background-color: pink;
-    margin-top: 0;
-}
-
 div.panel-header-group h2, h3, h4, h5, h6 {
     margin-top: 0.6rem;
 }
