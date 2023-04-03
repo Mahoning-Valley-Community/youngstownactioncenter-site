@@ -15,6 +15,11 @@ body {
     margin-left: 10px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-bar {
     position: relative;
     background-color: #231f20;
@@ -62,15 +67,24 @@ body {
     display: none;
 }
 
-div.placeholder-1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0eee6;
-    height: 400px;
-    width: 97%;
-    margin-left: auto;
-    margin-right: auto;
+a:visited {
+    color: darkgreen;
+}
+
+a:link {
+    color: green;
+}
+
+.downstyle-anchor {
+    text-decoration: inherit !important;
+    color: inherit !important;
+}
+
+.header-group {
+    padding: 0.7rem;
+    background-color: #5d6a5a;
+    margin-bottom: 0.7rem;
+    color: white;
 }
 
 h1 {
@@ -89,15 +103,29 @@ h1 {
 }
 
 .text-container {
+    overflow: hidden;
     background-color: #f0eee6;
     margin-top: 2rem;
+    border-radius: 33px;
+    text-align: center;
+    box-shadow: 0 10px black, 0 -10px black;
+    padding-bottom: 0.3rem;
+}
+
+.text-container-padding {
     padding-left: 1.3rem;
     padding-right: 1.3rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
-    border-radius: 33px;
-    text-align: center;
-    box-shadow: 0 10px black, 0 -10px black;
+}
+
+.text-container:first-child h2, h3, h4, h5, h6 {
+    margin-top: 0
+}
+
+.text-container p {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 @media only screen and (min-width: 1376px) {
