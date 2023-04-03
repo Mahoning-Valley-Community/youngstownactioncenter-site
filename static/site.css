@@ -136,6 +136,10 @@ h1 {
     padding-right: 2rem;
 }
 
+h2.shrink-on-mobile {
+    font-size: 1.1rem;
+}
+
 @media only screen and (min-width: 1376px) {
     h1 {
         width: 49rem;
@@ -170,5 +174,8 @@ h1 {
 @media only screen and (min-width: 440px) {
     h1 {
         font-size: 4rem;
+    }
+    h2.shrink-on-mobile {
+        font-size: 1.6rem;
     }
 }
