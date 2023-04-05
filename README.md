@@ -60,8 +60,7 @@ date = yyyy-mm-dd
 ```
 Please put your title in between the quotation marks, and fill in the date with the shown format.
 Once you have filled out this data, you may enter Markdown content below the bottom 3 plus signs.
-## Advanced
-You will need basic HTML knowledge and the willingness to read docs to go further.
+## Advanced: Build and View Website Locally
 This project uses [Zola](https://www.getzola.org/) to generate the website.
 In order to get Zola, I recommend building it from scratch.
 First, you need Rust. Follow [these instructions](https://www.rust-lang.org/learn/get-started).
@@ -77,3 +76,5 @@ Now, when you type `zola` from a new PowerShell window, it will run.
 Go to the youngstownactioncenter-site directory and try `zola serve`.
 It will build the site and you can access it locally in your browser.
 When you make any changes to a file and save it, it will rebuild the webpage for you to immediately view it.
+You will need basic HTML knowledge and the willingness to read docs to go further.
+Feel free to play with the templates and stylesheet, as long as you do not commit the changes and push them, there is no harm in tinkering.
