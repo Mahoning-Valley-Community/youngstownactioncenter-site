@@ -24,7 +24,7 @@ ul {
     position: absolute;
     width: 100vw;
     top: 3.5rem;
-    left: -33.33%;
+    left: -2%;
 }
 
 .nav-bar {
@@ -143,14 +143,13 @@ h2.shrink-on-mobile {
     font-size: 1.1rem;
 }
 
-@media only screen and (min-width: 1376px) {
+@media only screen and (min-width: 440px) {
     h1 {
-        width: 49rem;
+        font-size: 4rem;
+        line-height: 4rem;
     }
-    .pride-banner {
-        left: 0;
-        width: 100%;
-        top: 1.5rem;
+    h2.shrink-on-mobile {
+        font-size: 1.6rem;
     }
 }
 
@@ -160,6 +159,9 @@ h2.shrink-on-mobile {
         margin-right: 20%;
         margin-top: 1%;
         margin-bottom: 1%;
+    }
+    .pride-banner {
+        left: -33.33%;
     }
     .nav-bar ul {
         display: flex;
@@ -179,12 +181,13 @@ h2.shrink-on-mobile {
     }
 }
 
-@media only screen and (min-width: 440px) {
+@media only screen and (min-width: 1376px) {
     h1 {
-        font-size: 4rem;
-        line-height: 4rem;
+        width: 49rem;
     }
-    h2.shrink-on-mobile {
-        font-size: 1.6rem;
+    .pride-banner {
+        left: 0;
+        width: 100%;
+        top: 1.5rem;
     }
 }
