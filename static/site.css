@@ -21,9 +21,9 @@ ul {
 .pride-banner {
     height: 100px;
     z-index: -1;
-    position: absolute;
-    width: 100%;
-    top: 1.5rem;
+    position: fixed;
+    width: 100vw;
+    top: 4.75rem;
     left: 0;
 }
 
@@ -146,6 +146,11 @@ h2.shrink-on-mobile {
 @media only screen and (min-width: 1376px) {
     h1 {
         width: 49rem;
+    }
+    .pride-banner {
+        position: absolute;
+        width: 100%;
+        top: 1.5rem;
     }
 }
 
