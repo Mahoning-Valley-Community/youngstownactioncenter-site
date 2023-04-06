@@ -21,10 +21,10 @@ ul {
 .pride-banner {
     height: 100px;
     z-index: -1;
-    position: fixed;
+    position: absolute;
     width: 100vw;
-    top: 4.75rem;
-    left: 0;
+    top: 3.5rem;
+    left: -33.33%;
 }
 
 .nav-bar {
@@ -148,7 +148,7 @@ h2.shrink-on-mobile {
         width: 49rem;
     }
     .pride-banner {
-        position: absolute;
+        left: 0;
         width: 100%;
         top: 1.5rem;
     }
