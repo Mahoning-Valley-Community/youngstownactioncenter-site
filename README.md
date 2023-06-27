@@ -13,10 +13,12 @@ If you have any questions, please reach out to Andrew / @Raymi306 or Mitch / @ii
 After completing these steps, you will have a local copy of the files that you can begin to make changes to.
 To write content, we will be using Markdown.
 Familiarize yourself with Markdown with [this tutorial](https://www.markdowntutorial.com/) or [this cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-See below for detailed instructions on editing
+Finally:
 - Make changes
+- Create a new branch
 - Commit changes, ensure that you leave a descriptive summary and a helpful (but optional) description
 - Push your changes
+- Create a pull request here
 ## Project layout:
 ```
 └───youngstownactioncenter-site
@@ -41,7 +43,7 @@ See below for detailed instructions on editing
 We will be focusing on the content directory to add new information to the different pages.
 If you wish to edit the contact page, open "contact.md" in a text editor of your choice.
 Do NOT use Word or similar, Notepad works in a pinch.
-Edit the Markdown below the plus signs
+Edit the Markdown below the plus signs.
 Please see above for links to Markdown resources, or refer to existing files.
 
 
