@@ -12,7 +12,9 @@ If you have any questions, please reach out to Andrew / @Raymi306 or Mitch / @ii
 
 After completing these steps, you will have a local copy of the files that you can begin to make changes to.
 To write content, we will be using Markdown.
+
 Familiarize yourself with Markdown with [this tutorial](https://www.markdowntutorial.com/) or [this cheatsheet](https://www.markdownguide.org/cheat-sheet/).
+
 Finally:
 - Make changes
 - Create a new branch
