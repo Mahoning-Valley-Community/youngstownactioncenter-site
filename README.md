@@ -62,17 +62,24 @@ Please put your title in between the quotation marks, and fill in the date with 
 Once you have filled out this data, you may enter Markdown content below the bottom 3 plus signs.
 ## Advanced: Build and View Website Locally
 This project uses [Zola](https://www.getzola.org/) to generate the website.
-In order to get Zola, I recommend building it from scratch.
+In order to get Zola, you may either build it from scratch or download the latest release.
+
+You may find the latest release [here](https://github.com/getzola/zola/releases).
+Once you have downloaded the release for your operating system, extract the contents of the archive.
+
+If you feel the desire to build from scratch, you have some additional steps.
 First, you need Rust. Follow [these instructions](https://www.rust-lang.org/learn/get-started).
 Then, you need to clone the Zola repository which can be found [here](https://github.com/getzola/zola).
 Navigate to the top level directory of the zola repository and run `cargo build --release`.
 Grab a drink, this will take a few minutes.
-Once Zola is done building, for ease of use, you need to add the executable to your Path.
+
+Once you have acquired Zola, for ease of use, you need to add the executable to your Path.
+This can be done on Windows as follows:
 
 `Windows -> Settings -> About -> Advanced -> Environment Variables -> New`:
-- Enter "Zola" and the path to the Zola executable, which is in the Zola project directory/target/release
+- Enter "Zola" and the path to the Zola executable, which is in the Zola project directory/target/release if you built from scratch, or is the executable file if you downloaded the release.
 
-Now, when you type `zola` from a new PowerShell window, it will run.
+Now, when you type `zola` from your terminal, it will run.
 Go to the youngstownactioncenter-site directory and try `zola serve`.
 It will build the site and you can access it locally in your browser.
 When you make any changes to a file and save it, it will rebuild the webpage for you to immediately view it.
