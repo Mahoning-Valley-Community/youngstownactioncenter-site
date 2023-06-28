@@ -12,6 +12,7 @@ If you have any questions, please reach out to Andrew / @Raymi306 or Mitch / @ii
 
 After completing these steps, you will have a local copy of the files that you can begin to make changes to.
 To write content, we will be using Markdown.
+
 Familiarize yourself with Markdown with [this tutorial](https://www.markdowntutorial.com/) or [this cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
 ## Build and View Website Locally
@@ -48,7 +49,6 @@ Go to the youngstownactioncenter-site directory and try `zola serve`.
 It will build the site and you can access it locally in your browser.
 When you make any changes to a file and save it, it will rebuild the webpage for you to immediately view it.
 
->>>>>>> 0f05657 (readme tweaks after a training)
 ## Project layout:
 ```
 └───youngstownactioncenter-site
