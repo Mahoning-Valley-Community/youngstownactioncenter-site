@@ -15,12 +15,40 @@ To write content, we will be using Markdown.
 
 Familiarize yourself with Markdown with [this tutorial](https://www.markdowntutorial.com/) or [this cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
-Finally:
-- Make changes
-- Create a new branch
-- Commit changes, ensure that you leave a descriptive summary and a helpful (but optional) description
-- Push your changes
-- Create a pull request here
+## Build and View Website Locally
+This project uses [Zola](https://www.getzola.org/) to generate the website.
+In order to get Zola, you may either build it from scratch or download the latest release.
+
+You may find the latest release [here](https://github.com/getzola/zola/releases).
+Once you have downloaded the release for your operating system, extract the contents of the archive.
+
+If you feel the desire to build from scratch, you have some additional steps.
+First, you need Rust. Follow [these instructions](https://www.rust-lang.org/learn/get-started).
+Then, you need to clone the Zola repository which can be found [here](https://github.com/getzola/zola).
+Navigate to the top level directory of the zola repository and run `cargo build --release`.
+Grab a drink, this will take a few minutes.
+
+Once you have acquired Zola, for ease of use, you need to add the executable's location to your Path.
+
+This can be done on Windows as follows:
+
+`Windows -> Settings -> About -> Advanced -> Environment Variables`:
+- Edit "Path"
+- Add the directory that your Zola executable resides in OR the full path to the executable.
+If you built Zola from scratch, it is in the project directory/target/release.
+Otherwise, it is wherever you extracted the archive to.
+
+Now, when you type `zola` from your terminal, it will run.
+Quick refresher on terminals on Windows 11:
+You may hit the Window's key and type "terminal" to access the new Windows terminal.
+You may alternatively use powershell or cmd (terminal will by default be a pretty wrapper around powershell).
+You may right click in your website's project directory and click open terminal to open a terminal which is at the correct path to begin running Zola.
+Otherwise, familiarize yourself with the concept of directories and paths, and use the "cd" command to change to the website project's directory before running zola commands.
+
+Go to the youngstownactioncenter-site directory and try `zola serve`.
+It will build the site and you can access it locally in your browser.
+When you make any changes to a file and save it, it will rebuild the webpage for you to immediately view it.
+
 ## Project layout:
 ```
 └───youngstownactioncenter-site
@@ -64,28 +92,8 @@ date = yyyy-mm-dd
 ```
 Please put your title in between the quotation marks, and fill in the date with the shown format.
 Once you have filled out this data, you may enter Markdown content below the bottom 3 plus signs.
-## Advanced: Build and View Website Locally
-This project uses [Zola](https://www.getzola.org/) to generate the website.
-In order to get Zola, you may either build it from scratch or download the latest release.
 
-You may find the latest release [here](https://github.com/getzola/zola/releases).
-Once you have downloaded the release for your operating system, extract the contents of the archive.
 
-If you feel the desire to build from scratch, you have some additional steps.
-First, you need Rust. Follow [these instructions](https://www.rust-lang.org/learn/get-started).
-Then, you need to clone the Zola repository which can be found [here](https://github.com/getzola/zola).
-Navigate to the top level directory of the zola repository and run `cargo build --release`.
-Grab a drink, this will take a few minutes.
-
-Once you have acquired Zola, for ease of use, you need to add the executable to your Path.
-This can be done on Windows as follows:
-
-`Windows -> Settings -> About -> Advanced -> Environment Variables -> New`:
-- Enter "Zola" and the path to the Zola executable, which is in the Zola project directory/target/release if you built from scratch, or is the executable file if you downloaded the release.
-
-Now, when you type `zola` from your terminal, it will run.
-Go to the youngstownactioncenter-site directory and try `zola serve`.
-It will build the site and you can access it locally in your browser.
-When you make any changes to a file and save it, it will rebuild the webpage for you to immediately view it.
-You will need basic HTML knowledge and the willingness to read docs to go further.
+## Advanced
+You will need basic HTML knowledge and the willingness to read the Zola (and possibly Tera) docs to go further.
 Feel free to play with the templates and stylesheet, as long as you do not commit the changes and push them, there is no harm in tinkering.
