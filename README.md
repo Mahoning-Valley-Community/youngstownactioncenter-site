@@ -101,4 +101,6 @@ Feel free to play with the templates and stylesheet, as long as you do not commi
 ## Site Specific
 This site has a featured newsletter.
 To change it, go to templates/index.html and find and follow this comment:
+```
 <!--Change the path here to set a different featured newsletter-->
+```
