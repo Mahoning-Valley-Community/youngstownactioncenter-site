@@ -105,4 +105,11 @@ Once you have filled out this data, you may enter Markdown content below the bot
 ## Advanced
 
 You will need basic HTML knowledge and the willingness to read the Zola (and possibly Tera) docs to go further.
-Feel free to play with the templates and stylesheet, as long as you do not commit the changes and push them, there is no harm in tinkering.
+Feel free to play with the templates and stylesheet, as long as you do not commit the changes and push them, there is no harm in tinkering.4
+
+## Site Specific
+This site has a featured newsletter.
+To change it, go to templates/index.html and find and follow this comment:
+```
+<!--Change the path here to set a different featured newsletter-->
+```
