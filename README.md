@@ -93,16 +93,18 @@ If you need pictures, create a new directory (folder) instead.
 Inside the directory you need an index.md and your image files in .png format.
 Now, open your markdown file. It is a good idea to also open an existing markdown file of similar type (index or normal) for reference and for copy-pasting.
 Each file must start as follows:
+
 ```
 +++
 title = ""
 date = yyyy-mm-dd
 +++
 ```
+
 Please put your title in between the quotation marks, and fill in the date with the shown format.
 Once you have filled out this data, you may enter Markdown content below the bottom 3 plus signs.
 
 ## Advanced
 
 You will need basic HTML knowledge and the willingness to read the Zola (and possibly Tera) docs to go further.
-Feel free to play with the templates and stylesheet, as long as you do not commit the changes and push them, there is no harm in tinkering.4
+Feel free to play with the templates and stylesheet, as long as you do not commit the changes and push them, there is no harm in tinkering.
