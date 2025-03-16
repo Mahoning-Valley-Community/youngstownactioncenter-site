@@ -1,6 +1,9 @@
 # youngstownactioncenter-site
+
 If you have any questions, please reach out to Andrew / @Raymi306 or Mitch / @iintangible
+
 ## How to Contribute
+
 - Create an account on GitHub. Please use a secure password and strongly consider enabling 2FA in your settings.
   - You may access your settings by clicking on the circular button in the top right of GitHub after you have logged in, and selecting "Settings"
 - Message Andrew or Mitch with your GitHub username, so that we can add you as a collabarator to the project.
@@ -16,6 +19,7 @@ To write content, we will be using Markdown.
 Familiarize yourself with Markdown with [this tutorial](https://www.markdowntutorial.com/) or [this cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
 ## Build and View Website Locally
+
 This project uses [Zola](https://www.getzola.org/) to generate the website.
 In order to get Zola, you may either build it from scratch or download the latest release.
 
@@ -33,8 +37,10 @@ Once you have acquired Zola, for ease of use, you need to add the executable's l
 This can be done on Windows as follows:
 
 `Windows -> Settings -> About -> Advanced -> Environment Variables`:
+
 - Edit "Path"
 - Add the directory that your Zola executable resides in OR the full path to the executable.
+
 If you built Zola from scratch, it is in the project directory/target/release.
 Otherwise, it is wherever you extracted the archive to.
 
@@ -50,6 +56,7 @@ It will build the site and you can access it locally in your browser.
 When you make any changes to a file and save it, it will rebuild the webpage for you to immediately view it.
 
 ## Project layout:
+
 ```
 └───youngstownactioncenter-site
     │
@@ -69,7 +76,9 @@ When you make any changes to a file and save it, it will rebuild the webpage for
     │
     └───templates
 ```
+
 ## Editing:
+
 We will be focusing on the content directory to add new information to the different pages.
 If you wish to edit the contact page, open "contact.md" in a text editor of your choice.
 Do NOT use Word or similar, Notepad works in a pinch.
@@ -93,7 +102,7 @@ date = yyyy-mm-dd
 Please put your title in between the quotation marks, and fill in the date with the shown format.
 Once you have filled out this data, you may enter Markdown content below the bottom 3 plus signs.
 
-
 ## Advanced
+
 You will need basic HTML knowledge and the willingness to read the Zola (and possibly Tera) docs to go further.
 Feel free to play with the templates and stylesheet, as long as you do not commit the changes and push them, there is no harm in tinkering.

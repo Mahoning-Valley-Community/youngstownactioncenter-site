@@ -11,3 +11,22 @@ build_search_index = false
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = false
+
+[extra]
+# Disabled for obvious reasons.
+# Add the below code back in to the index template if ever needed.
+# {% set page = get_page(path=config.extra.featured_newsletter) %}
+# <div class="panel">
+#     <div class="panel-header-group">
+#         <h2><i>Featured Newsletter</i></h2>
+#         <h2>
+#             <a href="{{ page.path }}" class="downstyle-anchor">{{ page.title }}</a>
+#         </h2>
+#         {{ page.date }}
+#     </div>
+#     <div class="panel-content">
+#     {{ page.content | safe }}
+#     </div>
+# </div>
+
+featured_newsletter = "newsletter/1/index.md"
