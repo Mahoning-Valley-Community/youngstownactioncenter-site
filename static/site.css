@@ -23,8 +23,8 @@ ul {
     z-index: -1;
     position: absolute;
     width: 100vw;
-    top: 3.5rem;
     left: -2%;
+    top: 30px;
 }
 
 .nav-bar {
@@ -103,8 +103,8 @@ h1 {
     background-color: #f0eee6;
     padding: 2.5rem;
     font-weight: bold;
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
     margin-top: 1.3rem;
     margin-bottom: 1.3rem;
     margin-left: auto;
@@ -144,12 +144,14 @@ h2.shrink-on-mobile {
 }
 
 @media only screen and (min-width: 440px) {
-    h1 {
-        font-size: 4rem;
-        line-height: 4rem;
-    }
     h2.shrink-on-mobile {
         font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 563px) {
+    .pride-banner {
+        top: 10px;
     }
 }
 
@@ -162,6 +164,7 @@ h2.shrink-on-mobile {
     }
     .pride-banner {
         left: -33.33%;
+        top: 30px;
     }
     .nav-bar ul {
         display: flex;
@@ -181,13 +184,26 @@ h2.shrink-on-mobile {
     }
 }
 
+@media only screen and (min-width: 900px) {
+    .pride-banner {
+        top: 10px;
+    }
+}
+
 @media only screen and (min-width: 1376px) {
     h1 {
-        width: 49rem;
+        width: 36rem;
     }
     .pride-banner {
         left: 0;
         width: 100%;
-        top: 1.5rem;
     }
 }
+
+@media only screen and (min-width: 1660px) {
+    h1 {
+        font-size: 3rem;
+        width: 44rem;
+    }
+}
+
