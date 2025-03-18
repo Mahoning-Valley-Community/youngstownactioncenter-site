@@ -1,12 +1,15 @@
 {% extends "base.html" %}
 
-{% block title %}{{ section.title }}{% endblock %}
+{% block title %}
+{% set this=page | default(value=section) %}
+{{ this.title }}
+{% endblock %}
 {% block header %}
-<h1>{{section.title}}</h1>
+<h1>Youngstown Action Center</h1>
 {% endblock %}
 
 {% block content %}
 <div class="panel panel-content">
-    {{ section.content | safe }}
+    {{ this.content | safe }}
 </div>
 {% endblock content %}

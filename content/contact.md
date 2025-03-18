@@ -1,8 +1,7 @@
 +++
 title = "Contact Us"
-template = "page.html"
 +++
-<a href=mailto:youngstownsolidarity@gmail.com>youngstownsolidarity@gmail.com</a>
+[youngstownsolidarity@gmail.com](mailto:youngstownsolidarity@gmail.com)
 
 Follow us on [Facebook](https://www.facebook.com/YoungstownActionCenter)
 
