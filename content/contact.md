@@ -1,9 +1,9 @@
 +++
 title = "Contact Us"
 +++
-[youngstownsolidarity@gmail.com](mailto:youngstownsolidarity@gmail.com)
+[YoungstownActionCenter@proton.me](mailto:youngstownactioncenter@proton.me)
 
-Follow us on [Facebook](https://www.facebook.com/YoungstownActionCenter)
+Follow us on Facebook [@YoungstownActionCenter](https://www.facebook.com/YoungstownActionCenter)
 
 107 Park Avenue, Youngstown, OH 44505
 

@@ -103,8 +103,8 @@ h1 {
     background-color: #f0eee6;
     padding: 2.5rem;
     font-weight: bold;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
     margin-top: 1.3rem;
     margin-bottom: 1.3rem;
     margin-left: auto;
@@ -143,15 +143,13 @@ h2.shrink-on-mobile {
     font-size: 1.1rem;
 }
 
-@media only screen and (min-width: 440px) {
+@media only screen and (min-width: 374px) {
     h2.shrink-on-mobile {
         font-size: 1.6rem;
     }
-}
-
-@media only screen and (min-width: 563px) {
-    .pride-banner {
-        top: 10px;
+    h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
     }
 }
 
@@ -184,7 +182,7 @@ h2.shrink-on-mobile {
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1026px) {
     .pride-banner {
         top: 10px;
     }
