@@ -1,6 +1,59 @@
 <nav class="nav-bar">
     <ul>
-        <li><a href="{{ get_url(path='') }}">Home</a><span class="nav-divider">|</span></li>
-        <li><a href="{{ get_url(path='@/contact.md') }}">Contact Us</a></li>
+
+        <li><div class="dropdown">
+            <button class="dropbtn"><a href="{{ get_url(path='') }}">Home</a></button>
+            </div></li>
+    
+        <li><div class="dropdown">
+            <button class="dropbtn">About</button>
+            <div class="dropdown-content">
+                <a href="#">The YAC</a>
+                <a href="#">Our Mission</a>
+            </div>
+            </div>
+
+        <li><div class="dropdown">
+            <button class="dropbtn">Partners & Projects</button>
+            <div class="dropdown-content">
+                <a href="{{ get_url(path='@/org_directory.md') }}">Org Directory</a>
+                <a href="{{ get_url(path='@/greeters.md') }}">Community Greeters</a>
+                <a href="{{ get_url(path='@/movement_library.md') }}">Movement Library</a>
+                <a href="{{ get_url(path='@/zine_library.md') }}">Zine Library</a>
+                <a href="{{ get_url(path='@/get_narcan.md') }}">NARCAN Distribution</a>
+                <a href="{{ get_url(path='@/garden.md') }}">Community Garden</a>
+            </div>
+            </div>
+
+        <li><div class="dropdown">
+            <button class="dropbtn">Events</button>
+            <div class="dropdown-content">
+                <a href="#">Calendar</a>
+                <a href="#">Featured Events</a>
+            </div>
+            </div>
+            
+        <li><div class="dropdown">
+            <button class="dropbtn"><a href="{{ get_url(path='@/get_involved.md') }}">Get Involved</a></button>
+            </div></li>
+        
+        <li><div class="dropdown">
+            <button class="dropbtn">Donate</button>
+            <div class="dropdown-content">
+                <a href="https://opencollective.com/youngstown-action-center">OpenCollective</a>
+                <a href="#">Amazon Wishlist</a>
+            </div>
+            </div>
+
+        <li><div class="dropdown">
+            <button class="dropbtn"><a href="{{ get_url(path='@/contact.md') }}">Contact Us</a></button>
+            </div></li>
+
+        <div><ul style="padding-left: 75px; padding-top: 10px;">
+            <li><a href="#"><img src="bsky_logo.svg" width="35px"></a></li>
+            <li><a href="#"><img src="fb_logo.svg" width="35px"></a></li>
+            <li><a href="#"><img src="insta_logo.svg" width="35px"></a></li>
+        </ul></div>
+
     </ul>
 </nav>
