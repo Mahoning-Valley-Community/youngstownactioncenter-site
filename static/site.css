@@ -20,11 +20,7 @@ ul {
 
 .pride-banner {
     height: 100px;
-    z-index: -1;
-    position: absolute;
-    width: 100vw;
-    left: -2%;
-    top: 30px;
+    width: 100%;
 }
 
 .nav-bar {
@@ -159,10 +155,7 @@ h2.shrink-on-mobile {
         margin-top: 1%;
         margin-bottom: 1%;
     }
-    .pride-banner {
-        left: -33.33%;
-        top: 30px;
-    }
+
     .nav-bar ul {
         display: flex;
         flex-wrap: wrap;
@@ -181,18 +174,11 @@ h2.shrink-on-mobile {
 }
 
 @media only screen and (min-width: 1026px) {
-    .pride-banner {
-        top: 10px;
-    }
 }
 
 @media only screen and (min-width: 1376px) {
     h1 {
         width: 36rem;
-    }
-    .pride-banner {
-        left: 0;
-        width: 100%;
     }
 }
 
