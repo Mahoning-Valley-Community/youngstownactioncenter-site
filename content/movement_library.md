@@ -13,5 +13,5 @@ The Mahoning Valley Solidarity Library is a living project. Its caretakers updat
 
 The YAC and the MVSL librarians are hard at work on ways to open the catalogue to the public. Until then, the Solidarity Library is open by request only.
 
-[Contact the Mahoning Valley Solidarity Library](mailto:youngstownactioncenter@proton.me)
+[Contact the Mahoning Valley Solidarity Library](mailto:youngstownactioncenter@proton.me)  
 [View and search the MVSL Catalogue](https://www.librarycat.org/lib/YoungstownActionCent)
