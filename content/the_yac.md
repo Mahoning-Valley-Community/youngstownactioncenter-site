@@ -17,4 +17,4 @@ Housed in a three-story building with a wheelchair accessible first floor and lo
 
 ## Explore the YAC
 
-The YAC is always evolving. As of September 2025, we are undergoing some minor construction and reorganization. If and when you visit, please excuse our mess.
+As of September 2025, we are undergoing some minor construction and reorganization. Check back or follow us on social media for updates on the evolution of this space!
