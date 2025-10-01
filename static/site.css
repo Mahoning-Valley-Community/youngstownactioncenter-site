@@ -1,10 +1,10 @@
 body {
-    background-color: #9fb991;
+    background-color: #a6c27b;
+    font-family: Arial, sans-serif;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 2%;
     margin-bottom: 2%;
-    font-family: Garamond, serif;
     font-size: 1.1rem;
     line-height: 1.7rem;
 }
@@ -20,11 +20,7 @@ ul {
 
 .pride-banner {
     height: 100px;
-    z-index: -1;
-    position: absolute;
-    width: 100vw;
-    left: -2%;
-    top: 30px;
+    width: 100%;
 }
 
 .nav-bar {
@@ -47,7 +43,6 @@ ul {
 }
 
 .nav-bar li {
-    font-weight: bold;
     list-style: none;
 }
 
@@ -143,6 +138,48 @@ h2.shrink-on-mobile {
     font-size: 1.1rem;
 }
 
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #231f20;
+  color: white;
+  padding: 16px;
+  font-size: inherit;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #5b5b5b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #aaaaaa;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #8ea868;} 
+
 @media only screen and (min-width: 374px) {
     h2.shrink-on-mobile {
         font-size: 1.6rem;
@@ -160,10 +197,7 @@ h2.shrink-on-mobile {
         margin-top: 1%;
         margin-bottom: 1%;
     }
-    .pride-banner {
-        left: -33.33%;
-        top: 30px;
-    }
+
     .nav-bar ul {
         display: flex;
         flex-wrap: wrap;
@@ -172,7 +206,6 @@ h2.shrink-on-mobile {
     .nav-bar li {
         display: flex;
         flex-wrap: wrap;
-        margin-right: 1rem;
     }
     .nav-bar li + li {
         margin-top: 0;
@@ -183,18 +216,11 @@ h2.shrink-on-mobile {
 }
 
 @media only screen and (min-width: 1026px) {
-    .pride-banner {
-        top: 10px;
-    }
 }
 
 @media only screen and (min-width: 1376px) {
     h1 {
         width: 36rem;
-    }
-    .pride-banner {
-        left: 0;
-        width: 100%;
     }
 }
 
@@ -204,4 +230,3 @@ h2.shrink-on-mobile {
         width: 44rem;
     }
 }
-
