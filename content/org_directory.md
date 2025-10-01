@@ -9,7 +9,7 @@ The YAC partners with a variety of community organizations. Learn more about our
 
 ## Mahoning Valley DSA
 
-The Mahoning Valley Democratic Socialists of America serves Trumbull, Columbiana, and Mahoning County and offer a meeting and organizing space for socialist education and action.
+The Mahoning Valley Democratic Socialists of America serves Trumbull, Columbiana, and Mahoning County and offers a meeting and organizing space for socialist education and action.
 
 [Mahoning Valley DSA Website](https://mahoningvalleydsa.org/)  
 [Mahoning Valley DSA on Facebook](https://www.facebook.com/MahoningValleyDSA/)  
@@ -18,7 +18,7 @@ The Mahoning Valley Democratic Socialists of America serves Trumbull, Columbiana
 
 ## Trans Liberation Front of Northeast Ohio
 
-The Trans Liberation Front of Northeast Ohio is a trans-led mutual aid network serving Trumbull, Columbiana, and Mahoning County. The TLFNEO is a collective of trans, non-binary, and gender non-confirming individuals working to provide community, education and support to their comrades through mutual aid and other efforts.
+The Trans Liberation Front of Northeast Ohio is a trans-led mutual aid network serving Trumbull, Columbiana, and Mahoning County. The TLFNEO is a collective of trans, non-binary, and gender non-confirming individuals working to provide community, education, and support to their comrades through mutual aid and other efforts.
 
 
 [TLFNEO on Instagram](https://www.instagram.com/tlfneo/)  
@@ -28,7 +28,7 @@ The Trans Liberation Front of Northeast Ohio is a trans-led mutual aid network s
 
 ## Youngstown Caucus of the NEOSRA
 
-The Youngstown-based caucus of the Northeast Ohio Socialist Rifle Association, serving Mahoning County and the greater Youngstown area. The SRA are a collective of working class individuals working to build an inclusive community dedicated to self defense and community defense education.
+The Youngstown-based caucus of the Northeast Ohio Socialist Rifle Association serves Mahoning County and the greater Youngstown area. The SRA are a collective of working class individuals working to build an inclusive community dedicated to self defense and community defense education.
 
 [NEOSRA Website](https://www.neo-sra.org/)
 
