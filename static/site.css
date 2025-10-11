@@ -262,7 +262,6 @@ h2.shrink-on-mobile {
     }
     .nav-bar input + div {
         display: flex !important;
-        margin-left: 1rem;
     }
     .mobile-only {
         display: none !important;
