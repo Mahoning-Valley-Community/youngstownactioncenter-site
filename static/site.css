@@ -1,5 +1,10 @@
+/* define variables here */
+:root {
+  --leaf-green: #a6c27b;
+}
+
 body {
-    background-color: #a6c27b;
+    background-color: var(--leaf-green);
     font-family: Arial, sans-serif;
     margin-left: 2%;
     margin-right: 2%;
@@ -9,13 +14,15 @@ body {
     line-height: 1.7rem;
 }
 
+section {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* unordered list */
 ul {
     margin: 0;
     padding: 0;
-}
-
-.header-container {
-    position: relative;
 }
 
 .pride-banner {
@@ -47,7 +54,7 @@ ul {
     padding: 0;
 }
 
-.nav-bar ul.socials-list {
+.nav-bar .socials-list {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -56,36 +63,36 @@ ul {
     margin-right: auto;
 }
 
+.nav-bar .socials-list img {
+    width: 40px;
+}
+
 .nav-bar li {
     list-style: none;
     padding: 0;
 }
 
-.nav-bar a:link {
+.nav-bar a:link, .nav-bar a:visited {
     text-decoration: inherit;
-    color: white;
+    color: inherit;
 }
 
-.nav-bar a:visited {
-    text-decoration: inherit;
-    color: white;
-}
-
-#internal-navigation-list > li:not(.dropdown), .dropdown-title {
+/* TODO */
+.landscape-only > li:not(.dropdown), .dropdown-title {
+  color: inherit;
   background-color: inherit;
-  color: white;
   padding: 0.5rem 1rem;
   font-size: inherit;
   border: none;
   font-family: inherit;
 }
 
+/* TODO */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -95,7 +102,6 @@ ul {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -103,6 +109,7 @@ ul {
   display: block;
 }
 
+/* trying to hide this but allow it to be selectable, accessibility issue */
 .nav-bar input[type="checkbox"] {
     height: 0;
     width: 0;
@@ -110,6 +117,7 @@ ul {
     padding: 0;
 }
 
+/* hambahgah */
 .nav-bar label {
         text-align: right;
         display: block;
@@ -118,7 +126,8 @@ ul {
         align-self: center;
 }
 
-.nav-bar input[type="checkbox"]:not(:checked) + ul {
+/* magic hambahgah menu makes menu work */
+.nav-bar input[type="checkbox"]:not(:checked) + div {
     display: none;
 }
 
@@ -149,7 +158,8 @@ a:link {
     color: #005b00;
 }
 
-.downstyle-anchor {
+/* used in newsletter */
+a.downstyle-anchor {
     text-decoration: inherit !important;
     color: inherit !important;
 }
@@ -158,20 +168,29 @@ h2, h3, h4, h5, h6 {
     margin: 1.3rem;
 }
 
-h1 {
+.header-container {
     background-color: #f0eee6;
     padding: 2.5rem;
-    font-weight: bold;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
     margin-top: 1.3rem;
     margin-bottom: 1.3rem;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 13px;
-    text-align: center;
     overflow-x: auto;
     box-shadow: 0 7px 13px #636f5c;
+}
+
+.header-container h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.3rem auto 0 auto;
+}
+
+.header-container img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .panel {
@@ -202,6 +221,16 @@ h2.shrink-on-mobile {
     font-size: 1.1rem;
 }
 
+.mobile-only > li.submenu-title {
+    color: var(--leaf-green);
+    font-weight: bold;
+    
+}
+
+.landscape-only {
+    display: none !important;
+}
+
 @media only screen and (min-width: 374px) {
     h2.shrink-on-mobile {
         font-size: 1.6rem;
@@ -212,7 +241,7 @@ h2.shrink-on-mobile {
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 800px) {
     body {
         margin-left: 20%;
         margin-right: 20%;
@@ -229,19 +258,26 @@ h2.shrink-on-mobile {
         display: none;
     }
     .nav-bar, .nav-bar .flexed-ul {
-	flex-direction: row;
+	    flex-direction: row;
     }
-}
-
-@media only screen and (min-width: 1578px) {
-    .nav-bar ul.socials-list {
-        margin-right: 0;
+    .nav-bar input + div {
+        display: flex !important;
+        margin-left: 1rem;
     }
-}
-
-@media only screen and (min-width: 1660px) {
-    h1 {
+    .mobile-only {
+        display: none !important;
+    }
+    .landscape-only {
+        display: flex !important;
+    }
+    .header-container h1 {
         font-size: 3rem;
         width: 44rem;
+    }
+}
+
+@media only screen and (min-width: 1629px) {
+    .nav-bar ul.socials-list {
+        margin-right: 0;
     }
 }
