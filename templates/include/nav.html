@@ -1,6 +1,52 @@
-<nav class="nav-bar">
-    <ul>
-        <li><a href="{{ get_url(path='') }}">Home</a><span class="nav-divider">|</span></li>
-        <li><a href="{{ get_url(path='@/contact.md') }}">Contact Us</a></li>
+<nav class="nav-bar" aria-label="Main Navigation">
+	<label for="hamburger">Menu &#x2630;</label>
+	<input id="hamburger" type="checkbox"/>
+    <div>
+    <ul class="landscape-only flexed-ul">
+    {% for item in config.extra.nav %}
+        {% if item.link is defined %}
+            <li><a href="{{ get_url(path=item.link) }}">{{item.title}}</a></li>
+        {% else %}
+            <li class="dropdown">
+                <button class="dropdown-title">{{item.title}}</button>
+                <ul class="dropdown-content">
+                {% for subitem in item.dropdown %}
+                    {% if subitem.link is defined %}
+	                    <li><a href="{{ get_url(path=subitem.link) }}">{{subitem.title}}</a></li>
+                    {% else %}
+                        <li><a href="{{ subitem.external_link }}" target="_blank">{{subitem.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
+
+                </ul>
+	        </li>
+        {% endif %}
+    {% endfor %}
     </ul>
+
+    <ul class="mobile-only flexed-ul">
+    {% for item in config.extra.nav %}
+        {% if item.link is defined %}
+            <li><a href="{{ get_url(path=item.link) }}">{{item.title}}</a></li>
+        {% else %}
+            <li class="submenu-title">{{item.title}}</li>
+                {% for subitem in item.dropdown %}
+                    {% if subitem.link is defined %}
+	                    <li><a href="{{ get_url(path=subitem.link) }}">{{subitem.title}}</a></li>
+                    {% else %}
+                        <li><a href="{{ subitem.external_link }}" target="_blank">{{subitem.title}}</a></li>
+                    {% endif %}
+                {% endfor %}
+        {% endif %}
+        <hr>
+    {% endfor %}
+    </ul>
+    </div>
+
+	<ul class="socials-list">
+            <li><a href="#"><img src="/bsky_logo.svg"></a></li>
+            <li><a href="#"><img src="/fb_logo.svg"></a></li>
+            <li><a href="#"><img src="/insta_logo.svg"></a></li>
+	</ul> 
+
 </nav>

@@ -1,5 +1,6 @@
 +++
 title = "Contact Us"
+template = "index.html"
 +++
 [YoungstownActionCenter@proton.me](mailto:youngstownactioncenter@proton.me)
 
