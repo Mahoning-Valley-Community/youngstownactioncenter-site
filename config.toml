@@ -31,4 +31,65 @@ highlight_code = false
 #     </div>
 # </div>
 
-featured_newsletter = "newsletter/1/index.md"
+# featured_newsletter = "newsletter/1/index.md"
+
+[[extra.nav]]
+title = "Home"
+link = ""
+
+[[extra.nav]]
+title = "About"
+[[extra.nav.dropdown]]
+title = "The YAC"
+link = "@/the_yac.md"
+[[extra.nav.dropdown]]
+title = "Our Mission"
+link = "@/our_mission.md"
+
+[[extra.nav]]
+title = "Partners & Projects"
+[[extra.nav.dropdown]]
+title = "Org Directory"
+link = "@/org_directory.md"
+[[extra.nav.dropdown]]
+title = "Community Greeters"
+link = "@/greeters.md"
+[[extra.nav.dropdown]]
+title = "MV Solidarity Library"
+link = "@/movement_library.md"
+[[extra.nav.dropdown]]
+title = "The Guillo-Zine Project"
+link = "@/zine_library.md"
+[[extra.nav.dropdown]]
+title = "NARCAN Distribution"
+link = "@/get_narcan.md"
+[[extra.nav.dropdown]]
+title = "Community Garden"
+link = "@/garden.md"
+
+[[extra.nav]]
+title = "Events"
+[[extra.nav.dropdown]]
+title = "Calendar"
+link = "@/calendar.md"
+[[extra.nav.dropdown]]
+title = "Featured Events"
+link = "@/events.md"
+
+[[extra.nav]]
+title = "Get Involved"
+link = "@/get_involved.md"
+
+[[extra.nav]]
+title = "Donate"
+[[extra.nav.dropdown]]
+title = "OpenCollective"
+external_link = "https://opencollective.com/youngstown-action-center"
+[[extra.nav.dropdown]]
+title = "Amazon Wishlist"
+external_link = "https://www.amazon.com/hz/wishlist/ls/3V4BV6JF6ZXKI?ref=wl_share"
+
+[[extra.nav]]
+title = "Contact Us"
+link = "@/contact.md"
+
