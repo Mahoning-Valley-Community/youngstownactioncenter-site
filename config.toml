@@ -58,7 +58,7 @@ link = "@/greeters.md"
 title = "MV Solidarity Library"
 link = "@/movement_library.md"
 [[extra.nav.dropdown]]
-title = "The Guillo-Zine Project"
+title = "The GuilloZine Project"
 link = "@/zine_library.md"
 [[extra.nav.dropdown]]
 title = "NARCAN Distribution"
