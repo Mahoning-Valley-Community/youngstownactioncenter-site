@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}
+{% set this=page | default(value=section) %}
+{{ this.title }}
+{% endblock %}
+{% block header %}
+<img src="/yac_logo.png">
+<h1>Youngstown Action Center</h1>
+{% endblock %}
+
+{% block content %}
+<div class="panel panel-content">
+    {{ this.content | safe }}
+</div>
+
+<iframe src="https://calendar.google.com/calendar/embed?src=a216b2b3c4520bca6213975997b8abf89b3480eb75526e665564a25b019785ab%40group.calendar.google.com&ctz=America%2FNew_York&mode=AGENDA" style="border: 0; width: 100%" height="600" frameborder="0" scrolling="no"></iframe>
+{% endblock content %}
