@@ -42,6 +42,9 @@ link = "@/the_yac.md"
 [[extra.nav.dropdown]]
 title = "Our Mission"
 link = "@/our_mission.md"
+[[extra.nav.dropdown]]
+title = "Our Bylaws"
+link = "@/our_bylaws.md"
 
 [[extra.nav]]
 title = "Partners & Projects"
