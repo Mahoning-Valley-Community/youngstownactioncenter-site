@@ -25,6 +25,11 @@ ul {
     padding: 0;
 }
 
+.panel-content ul {
+    margin: revert;
+    padding: revert;
+}
+
 .pride-banner {
     height: 100px;
     width: 100%;
@@ -164,10 +169,6 @@ a.downstyle-anchor {
     color: inherit !important;
 }
 
-h2, h3, h4, h5, h6 {
-    margin: 1.3rem;
-}
-
 .header-container {
     background-color: #f0eee6;
     padding: 2.5rem;
@@ -193,12 +194,15 @@ h2, h3, h4, h5, h6 {
     margin-right: auto;
 }
 
+.centered-text {
+    text-align: center;
+}
+
 .panel {
     overflow: hidden;
     background-color: #f0eee6;
     margin-bottom: 1.3rem;
     border-radius: 13px;
-    text-align: center;
     box-shadow: 0 7px 13px #636f5c;
 }
 
