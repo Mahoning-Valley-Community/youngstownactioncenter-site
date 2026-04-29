@@ -1,13 +1,4 @@
-{% extends "base.html" %}
-
-{% block title %}
-{% set this=page | default(value=section) %}
-{{ this.title }}
-{% endblock %}
-{% block header %}
-<img src="/yac_logo.png">
-<h1>Youngstown Action Center</h1>
-{% endblock %}
+{% extends "index.html" %}
 
 {% block content %}
 <div class="panel panel-content">
