@@ -9,7 +9,15 @@ template = "index.html"
 
 ## Visit the YAC
 
-We are currently working on providing open hours to the community to tour and utilize the YAC! At this time, however, the YAC is open only by appointment or during an organization meeting or other event.
+Members of the Board of Directors currently have the following office hours: 
+
+ Monday: 5pm to 7pm
+
+ Wednesday: 12pm to 7pm
+
+ Thursday: 5pm to 7pm
+
+The YAC is also open by appointment outside of these hours, or during an organization meeting or other event.
 
 107 Park Avenue  
 Youngstown, OH 44505
