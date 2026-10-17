@@ -13,7 +13,7 @@ Feel free to look through them and familiarize yourself with them!
  
 - [AI Policy](https://docs.youngstownactioncenter.com/index.php/s/yDKYCdAKfEKkPPD)
  
-- [Community Member Proposa Policy](https://docs.youngstownactioncenter.com/index.php/s/qNkptkjTtQeL6k7)
+- [Community Member Proposal Policy](https://docs.youngstownactioncenter.com/index.php/s/qNkptkjTtQeL6k7)
  
 - [YAC Event Reservation Policy](https://docs.youngstownactioncenter.com/index.php/s/YnJeedb3HjC3zAZ)
 
