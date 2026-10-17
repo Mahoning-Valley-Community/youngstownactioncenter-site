@@ -1,6 +1,5 @@
 +++
 title = "Contact Us"
-template = "index.html"
 +++
 
 ## Contact Us

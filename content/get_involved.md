@@ -1,6 +1,5 @@
 +++
 title = "Get Involved"
-template = "index.html"
 +++
 
 ## Get Involved

@@ -1,6 +1,5 @@
 +++
 title = "Youngstown Action Center"
-template = "index.html"
 +++
 
 ## Who Are We?

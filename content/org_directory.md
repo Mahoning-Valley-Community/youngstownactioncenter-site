@@ -1,6 +1,5 @@
 +++
 title = "Org Directory"
-template = "index.html"
 +++
 
 ## Org Directory

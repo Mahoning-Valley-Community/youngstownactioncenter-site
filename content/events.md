@@ -1,6 +1,5 @@
 +++
 title = "Featured Events"
-template = "index.html"
 +++
 
 ## Featured Events

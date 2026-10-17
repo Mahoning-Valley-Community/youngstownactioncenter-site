@@ -1,6 +1,5 @@
 +++
 title = "NARCAN Distribution"
-template = "index.html"
 +++
 
 ## NARCAN Distribution

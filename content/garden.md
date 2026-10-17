@@ -1,6 +1,5 @@
 +++
 title = "Community Garden"
-template = "index.html"
 +++
 
 ## Community Garden

@@ -1,6 +1,5 @@
 +++
 title = "The Community Greeters"
-template = "index.html"
 +++
 
 ## The Community Greeters

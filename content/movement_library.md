@@ -1,6 +1,5 @@
 +++
 title = "The Mahoning Valley Solidarity Library"
-template = "index.html"
 +++
 
 ## The Mahoning Valley Solidarity Library

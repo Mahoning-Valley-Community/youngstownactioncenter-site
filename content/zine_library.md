@@ -1,6 +1,5 @@
 +++
 title = "The GuilloZine Project"
-template = "index.html"
 +++
 
 ## The GuilloZine Project

@@ -1,6 +1,5 @@
 +++
 title = "The YAC"
-template = "index.html"
 +++
 
 ## Who Are We?

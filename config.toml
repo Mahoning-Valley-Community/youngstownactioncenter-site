@@ -27,7 +27,7 @@ title = "Our Bylaws"
 link = "@/our_bylaws.md"
 [[extra.nav.dropdown]]
 title = "Our Policies"
-link = "@/policies.md"
+link = "@/our_policies.md"
 
 [[extra.nav]]
 title = "Partners & Projects"
